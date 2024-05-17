@@ -1,0 +1,1 @@
+alt + arriba = mueve linea arriba (lo seleccionado)
