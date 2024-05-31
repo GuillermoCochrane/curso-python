@@ -1,0 +1,4 @@
+#1- Realizar un programa que permita ingresar solo texto y los muestre todo en mayuscula
+#2 - Realizar un programa que permita ingresar solo numeros, si no se cumple este requisito, que me de la hasta 2 oportunidades más y me muestre la cantidad de veces que lo hice mal.
+#3 - Realizar un juego donde la computadora seleccione un numero aleatorio del 1 al 10 y nosotros como jugadores tengamos hasta tres oportunidades de adivinar el numero, si ganamos que nos muestre un mensaje felicitándonos y mostrando el numero aleatorio seleccionado. Tener en cuenta que el numero seleccionado por la computadora al inicio es el mismo que deben evaluar en los tres intentos! Tambien quiero ver en que numero de intento lo acerte.Poner mensajes como un "Frio" cuando estoy mas alla de 3 numeros o "caliente" cuando estoy a menos de 3?
+#4 - PIEDRA PAPEL O TIJERAS
