@@ -71,8 +71,25 @@
 - Saludar con python
 - Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo! mi nombre es (su nombre) u este es mi primer programa!!!!🚀. `print ("Este es mi super saludo 🖐🏻 con python 🐍")`
 
-### Veamos el Hello World en distintos lenguajes de programación
+### Bonus track: ¿Cómo ejecutar un programa en Python?
 
-[Hola Mundo](https://youtube.com/shorts/WBdNh8ZVNbc?si=OimcFIhgMS1QeoG9)
-[Ejemplos Lenguajes](1.a-EjemplosLenguajes.md)
-[VOLVER](readme.md)
+Si tienes una sola línea de código, puedes ejecutarla directamente haciendo clic derecho y seleccionando la opción "Run Code" o utilizando las teclas rápidas asignadas.
+Sin embargo, si tienes varias líneas de código, te conviene seleccionar específicamente las líneas que deseas ejecutar.
+Recuerda que para usar el "Run Code" en Python tienes dos opciones:
+
+- La primera es seleccionar "Run Code".
+
+imagen1
+
+- La segunda opción, si tienes la extensión correspondiente instalada, es seleccionar "Ejecutar Python", lo que te dará la opción de "Ejecutar el archivo de Python en terminal". Esta forma es lo mismo que poner en la terminal python (nombre del archivo) por ejemplo: `python 1.py`
+
+imagen2
+
+Las mismas opciones se encuentran en el ícono triangular en la parte superior derecha de la ventana de visual studio code
+
+imagen3
+
+### Bonus track 2: Emojis
+Para abrir el menú para insertar Emojis, presionar en Windows la convinación de  teclas Windows + .
+
+hasta 8/5/24
