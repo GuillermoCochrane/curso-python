@@ -1,9 +1,9 @@
-""" saludo = "Hola Mundo, ";
+saludo = "Hola Mundo, ";
 edad = 43;
 print(saludo*3);
 print("Mi edad es", edad);
 print("Mi edad es", edad, "años");
-print("Mi edad es", edad, "años", end=" "); """
+print("Mi edad es", edad, "años", end=" ");
 
 nombreApellido = "Guillermo Cochrane"; #esto es mi nombre, en un comentario
 telefono = 3584120101;

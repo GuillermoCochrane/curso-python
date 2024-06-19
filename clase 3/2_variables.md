@@ -105,7 +105,7 @@ position = prev_position + 89
 
 > En Python hay algunas palabras reservadas en que no pueden ser utilizadas como identificadores válidos. Se pueden encontrar en keyword.kwlist, y son los siguientes.
 
-| Keywords     | en            | Python        |
+| Keywords       en              Python        |
 | ------------ | ------------- | ------------- |
 | \* `False`   | \* `assert`   | \* `return`   |
 | \* `None`    | \* `break`    | \* `try`      |
@@ -159,9 +159,10 @@ position = prev_position + 89
 
 ```python
 #con esto podemos saber la posicion de memoria
+#==============================================
 x = 10
 print(id(x))
-#==================================
+#==============================================
 ```
 ---
 ## Buenas Practicas con Variables en Python
@@ -170,41 +171,32 @@ print(id(x))
 ```python   
 # Mal
 x = 25
-
 # Bien
 edad = 25
 ```
 2. ### Evita nombres reservados: No uses nombres que ya están reservados por Python. Por ejemplo, no llames a una variable list o str, ya que estos son nombres de tipos de datos incorporados en Python.
 ```python 
-# Mal
-list = [1, 2, 3]
+list = [1, 2, 3] # Mal
 
-# Bien
-mi_lista = [1, 2, 3]
+mi_lista = [1, 2, 3] # Bien
 ```
 3. ### Convenciones de estilo: Sigue las convenciones de estilo de Python, como PEP 8. Por ejemplo, usa minúsculas para los nombres de las variables y separa las palabras con guiones bajos.
 ```python 
-# Mal
-miVariable = 42
+miVariable = 42 # Mal
 
-# Bien
-mi_variable = 42
+mi_variable = 42 # Bien
 ```
 4. ### Evita nombres genéricos: Evita nombres de variables demasiado genéricos que puedan confundir o no transmitir su propósito. Por ejemplo, no uses nombres como dato, valor, resultado, etc., a menos que sea realmente necesario y su significado esté claro en el contexto.
 ```python 
-# Mal
-dato = 10
+dato = 10 # Mal
 
-# Bien
-numero_de_intentos = 10
+numero_de_intentos = 10 # Bien
 ```
 5. ### Usa constantes en mayúsculas: Si tienes variables que son constantes y no van a cambiar, usa nombres en mayúsculas para distinguirlas.
 ```python 
-# Mal
-pi = 3.14159
+pi = 3.14159 # Mal
 
-# Bien
-PI = 3.14159
+PI = 3.14159 # Bien
 ```
 6. ### Inicializa variables cuando sea posible: Siempre que sea posible, inicializa tus variables cuando las declares. Esto hace que tu código sea más explícito y menos propenso a errores.
 ```python 
@@ -215,7 +207,6 @@ edad = 0
 # Bien
 nombre = "Juan"
 edad = 30
-
 ```
 
 ---
