@@ -1,12 +1,29 @@
-# Programación con Python
+# 👨‍💻 Funcion INPUT en Python 👨‍💻
 
-**Creado por:** [Diego Markiewicz](), [Gaspar Oddovero](https://www.linkedin.com/in/gaspar-o-122803175/)
+---
 
-**Licencia: [LICENSE.md](LICENSE.md)**
+### La función input() en Python se usa para recibir datos del usuario mientras el programa se está ejecutando.
 
-**Descripción del archivo:** Curso de programación Modulo I con Python
+- El programa le pide al usuario que ingrese algo: Cuando el programa alcanza la línea de código que contiene input(), se detiene y muestra un mensaje (si lo incluyes entre comillas dentro de los paréntesis), esperando que el usuario escriba algo.
+- El usuario ingresa un valor: El usuario escribe lo que quiera y luego presiona la tecla "Enter" o "Intro".
+- El programa recibe y guarda lo que el usuario escribió: Lo que el usuario escribió se guarda como una cadena de texto (o string) y el programa lo puede utilizar más adelante.
 
-**Palabras clave:** Python, programación, principiantes, ejercicios
+### Por ejemplo:
+
+```python
+nombre = input("Por favor, introduce tu nombre: ")
+print("Hola, " nombre)
+#En este programa, python nos pregunta nuestro nombre con la funcion input y despues nos lo imprime por consola con la funcion print.
+```
+
+### ¡No solo se puede usar uno en nuestro codigo, podemos usar y almacenar la cantidad que necesitemos! 😲
+
+```python
+nombre = input("Por favor, introduce tu nombre: ")
+apellido = input("Por favor, introduce tu apellido: ")
+#Aqui lo que hará python es primero preguntarnos el nombre, al tocar Enter pasara a la siguiente linea y nos preguntará el apellido y lo guardará dentro de cada variable.
+print("El nombre que me compartiste es ", nombre, " y tu apellido es ", apellido)
+```
 
 ---
 
@@ -39,33 +56,6 @@ En Python, `print()` es una función que se usa para mostrar información en la 
 - **Legibilidad:** Mejoran la legibilidad del código al dejar en claro dónde se usan las variables.
 - **Concisión:** Ofrecen una forma compacta de formatear cadenas sin necesidad de concatenación de cadenas o el método `.format()`.
 - **Flexibilidad:** Puede incorporar expresiones y otras opciones de formato dentro de las llaves.
-
-# 👨‍💻 Funcion INPUT en Python 👨‍💻
-
----
-
-### La función input() en Python se usa para recibir datos del usuario mientras el programa se está ejecutando.
-
-- El programa le pide al usuario que ingrese algo: Cuando el programa alcanza la línea de código que contiene input(), se detiene y muestra un mensaje (si lo incluyes entre comillas dentro de los paréntesis), esperando que el usuario escriba algo.
-- El usuario ingresa un valor: El usuario escribe lo que quiera y luego presiona la tecla "Enter" o "Intro".
-- El programa recibe y guarda lo que el usuario escribió: Lo que el usuario escribió se guarda como una cadena de texto (o string) y el programa lo puede utilizar más adelante.
-
-### Por ejemplo:
-
-```python
-nombre = input("Por favor, introduce tu nombre: ")
-print(f"Hola, {nombre}")
-#En este programa, python nos pregunta nuestro nombre con la funcion input y despues nos lo imprime por consola con la funcion print.
-```
-
-### ¡No solo se puede usar uno en nuestro codigo, podemos usar y almacenar la cantidad que necesitemos! 😲
-
-```python
-nombre = input("Por favor, introduce tu nombre: ")
-apellido = input("Por favor, introduce tu apellido: ")
-#Aqui lo que hará python es primero preguntarnos el nombre, al tocar Enter pasara a la siguiente linea y nos preguntará el apellido y lo guardará dentro de cada variable.
-print(f"El nombre que me compartiste es {nombre} y tu apellido es {apellido}")
-```
 
 ---
 
@@ -141,3 +131,4 @@ print(f"El resultado de multiplicar texto1 y texto2 * 5 es: {resultado}")
 * Pedirle al usuario que ponga como estuvo su dia (del 1 al 10) y luego mostrar el texto "Mi dia estuivo de:" y el valor ingresado
 * Pedir al usuario que ingrese su edad y su ciudad de residencia, y luego mostrar estos datos en una frase.
 * Solicitar al usuario que ingrese su comida favorita y su bebida favorita, luego mostrar un mensaje que contenga ambas respuestas.
+15/5/2024
