@@ -1,4 +1,4 @@
-""" a = int(input("Ingrese un numero: "))
+a = int(input("Ingrese un numero: "))
 b = int(input("Ingrese otro numero: "))
 print(f"Si a es: {a} y b es: {b}")
 resultado = (a == b) # comparar dos variables (igualdad)
@@ -18,7 +18,7 @@ print(f"El resultado de 'a <= b' es: {resultado_5}")
 
 resultado_6 = (a >= b) # comparar dos variables (mayor o igual)
 print(f"El resultado de 'a >= b' es: {resultado_6}")
-"""
+
 edad = int(input("Ingrese su edad: "))
 if edad >= 18 and edad <= 35:
     print(f"Puedes entrar  porque tienes {edad} anios y  eres mayor de 18 años")

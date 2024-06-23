@@ -2,10 +2,10 @@
 
 - ## Suma = +
 - ## Resta = -
-- ## Multiplicacion = \_
+- ## Multiplicacion = *
 - ## Division = /
 - ## Modulo = % (Resto de la division)
-- ## Exponenciacion = \*\*
+- ## Exponenciacion = **
 - ## Division Entera = // (Solo la parte entera de la division)
 
 ### Suma
@@ -26,7 +26,7 @@ print(f"el resultado de la suma es: {suma}")
 operador_1 = 10
 operador_2 = 3
 resta = operador_1 - operador_2
-print (f"el resultado de la resta es: {resta}")
+print ("el resultado de la resta es: ", resta)
 ```
 
 ---
@@ -37,7 +37,7 @@ print (f"el resultado de la resta es: {resta}")
 operador_1 = 10
 operador_2 = 3
 multiplica = operador_1 _ operador_2
-print (f"el resultado de la resta es: {multiplica}")
+print ("el resultado de la resta es: ", multiplica)
 ```
 
 ---
@@ -48,7 +48,7 @@ print (f"el resultado de la resta es: {multiplica}")
 operador_1 = 10
 operador_2 = 3
 divide = operador_1 / operador_2
-print (f"el resultado de la division es: {divide}")
+print ("el resultado de la division es: ", divide)
 ```
 
 ---
@@ -59,7 +59,7 @@ print (f"el resultado de la division es: {divide}")
 operador_1 = 10
 operador_2 = 3
 divide = operador_1 // operador_2
-print (f"el resultado de la division es: {divide}")
+print ("el resultado de la division es: ", divide)
 ```
 
 ---
@@ -70,7 +70,7 @@ print (f"el resultado de la division es: {divide}")
 operador_1 = 10
 operador_2 = 2
 restodivision = operador_1 % operador_2
-print (f"el resultado del resto de la division es : {restodivision}")
+print ("el resultado del resto de la division es : ", restodivision)
 ```
 
 ---
@@ -81,101 +81,165 @@ print (f"el resultado del resto de la division es : {restodivision}")
 operador_1 = 10
 operador_2 = 2
 exponenciacion = operador_1 ** operador_2
-print (f"el resultado de la exponenciacion es : {exponenciacion}")
+print ("el resultado de la exponenciacion es : ", exponenciacion)
 ```
 
 ---
 
-# Interpolacion de cadenas
+# OPERADORES de Asignacion
 
-## Concatenar con la F y el resultado entre llaves.
+###  ( = ) Asignacion (el igual es el operador de asignacion)
 
 ```python
-print(f"El resultado de la exponenciación es: {exponenciacion}")
+miVariable = 10
 ```
 
-## Triple Comillas (""")
+###  ( += ) Incremento
 
-### Nueva forma de comentar en Python varios renglones
+```python
+miVariable = miVariable + 1 #Incremento
+miVariable += 1 #Incremento (otra forma)
+```
 
----
-
-# OPERADORES
-
-# Asignacion
-
-### (-) = Asignacion (el igual es el operador de asignacion)
-
-### ? += Incremento
-
-ejemplo
-
-- miVariable = 10
-- miVariable = miVariable + 1 #Incremento
-  ó miVariable += 1 #Incremento
-  ! -= Decremento
+### -= Decremento
 
 ```python
 miVariable = miVariable - 1 #Decremento
-miVariable -= 1 #Decremento
+miVariable -= 1 #Decremento (otra forma)
 ```
 
-### \_= Multiplicacion
+### *= Multiplicacion
 
 ```python
-miVariable = miVariable _ 2 #Multiplicacion
-miVariable _= _ 2 #Multiplicacion
+miVariable = miVariable * 2 #Multiplicacion
+miVariable *=  2 #Multiplicacion (otra forma)
 ```
 
 ### /= Division
 
 ```python
-  miVariable = miVariable / 2 #division
-  miVariable /= 2 #division
+miVariable = miVariable / 2 #division
+miVariable /= 2 #division (otra forma)
 ```
 
-- %= Modulo
-- \*\*= Exponenciacion
-- //= Division Entera
+### %= Modulo
 
-## COMPARACION
-
-### Nos permite saber si los valores son igual o distintos
-
-- ==
-- !=
-- _>_
-- <
-- _>=_
-- <=
-
-#### Las sentencias de control son estructuras en programación que permiten modificar el flujo de ejecución de un programa. Estas sentencias permiten tomar decisiones, ejecutar bloques de código de manera condicional o repetir ciertas operaciones mientras se cumpla una condición.
-
+```python
+miVariable = miVariable % 2 #Modulo
+miVariable %= 2 #Modulo (otra forma)
 ```
+### **= Exponenciacion
+
+```python
+miVariable = miVariable ** 2 #Exponenciacion
+miVariable **= 2 #Exponenciacion (otra forma)
+```
+
+### //= Division Entera
+
+```python
+miVariable = miVariable // 2 #Division Entera
+miVariable //= 2 #Division Entera (otra forma)
+```
+
+## Operadores de comparación
+
+### Nos permite saber si los valores son igual o distintos, mayores o menores que otros. Los operadores de comparación son los siguientes:
+
+### == (igualdad)
+
+```python
 a = 4
 b = 2
 resultado = (a == b) #Igualdad
 print (f"el resultado es: {resultado}")
+```
+### != (desigualdad)
 
+```python
+a = 4
+b = 2
 resultado = (a != b) #Distintos
 print (f"el resultado es: {resultado}")
+```
 
+### > (mayor)
+
+```python
+a = 4
+b = 2
 resultado = (a > b) #Mayor que
 print (f"el resultado es: {resultado}")
+```
 
+### < (menor)
+
+```python
+a = 4
+b = 2
 resultado = (a < b) #Menor que
 print (f"el resultado es: {resultado}")
+```
 
+### >=  (mayor o igual)
+
+```python
+a = 4
+b = 2
 resultado = (a >= b) #Mayor o igual que
 print (f"el resultado es: {resultado}")
+```
 
+### <=  (menor o igual)
+
+```python
+a = 4
+b = 2
 resultado = (a <= b) #Menor o igual que
+print (f"el resultado es: {resultado}")
+```
+---
+
+## Operadores lógicos
+
+### AND (y): devuelve True si ambos valores son verdaderos
+```python
+#Ejemplo de AND
+a = True
+b = True
+resultado = (a and b)
+print (f"el resultado es: {resultado}")
+```
+### OR (o): devuelve True si al menos uno de los valores es verdadero
+```python
+#Ejemplo de OR
+a = True
+b = False
+resultado = (a or b)
+print (f"el resultado es: {resultado}")
+```
+### NOT (no): devuelve True si el valor es falso
+
+```python
+#Ejemplo de NOT
+a = True
+resultado = (not a)
+print (f"el resultado es: {resultado}")
+```
+### XOR (o exclusivo): devuelve True si solo uno de los valores es verdadero
+
+```python
+#Ejemplo de XOR
+a = True
+b = False
+resultado = (a ^ b)
 print (f"el resultado es: {resultado}")
 ```
 
 ---
-
 ## Sentencia If y Else
+
+#### Las sentencias de control son estructuras en programación que permiten modificar el flujo de ejecución de un programa. Estas sentencias permiten tomar decisiones, ejecutar bloques de código de manera condicional o repetir ciertas operaciones mientras se cumpla una condición.
 
 ```python
 a = 1
@@ -185,37 +249,36 @@ if a > b:
 else:
   print ("a no es mayor que b")
 ```
-
 ---
 
-## Logicos
+## Comentarios en Python
 
-- AND (y) devuelve true si ambos valores son verdaderos
-- OR (o) devuelve true si al menos uno de los valores es verdadero
-- NOT (no) devuelve true si el valor es falso
-- XOR (o exclusivo) devuelve true si solo uno de los valores es verdadero
+### El codigo comentado en Python es ignorado por el interpretador. Esto puede ser útil para documentar el código y hacerlo más entendible.
+
+## Almohadilla (#)
+
+### El caracter # en Python se utiliza para comentar el resto de la línea, a partir de la misma el interpretador no procesará el código.
+
+## Triple Comillas (""")
+
+### En Python podemos usar las triples comillas (""")  para comentar varios renglones. Se debe usar al comienzo y al final del bloque de código que se desea comentar.
 
 ```python
-#Ejemplo de AND
-a = True
-b = True
-resultado = (a and b)
-print (f"el resultado es: {resultado}")
-#Ejemplo de OR
-a = True
-b = False
-resultado = (a or b)
-print (f"el resultado es: {resultado}")
-#Ejemplo de NOT
-a = True
-resultado = (not a)
-print (f"el resultado es: {resultado}")
-#Ejemplo de XOR
-a = True
-b = False
-resultado = (a ^ b)
-print (f"el resultado es: {resultado}")
+# Este es un comentario en Python
+print("Hola Mundo") # no es necesario comentar desde el comienzo de la línea.
+"""Tambien se puede usar para 
+comentar en varios renglones"""
 ```
+
+## Interpolacion de cadenas
+### Poniendo "f" antes de la cadena, nos permite concatenar un texto con la variable que se encuentra entre llaves.
+
+
+```python
+exponenciacion = 10**2
+print(f"El resultado de la exponenciación es: {exponenciacion}")
+```
+---
 
 # Actividades 💬
 
