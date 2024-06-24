@@ -1,11 +1,10 @@
 #Ejemplo NOT (mismo ejercicio pero invierta el resultado)
-dia = input("Ingrese el dia de de la semana: ")
-if not (dia == "Sabado") or not(dia == "Domingo"):
-    print("No puede ir")
-else:
-    vacaciones = input("¿Se encuentra de vacaciones? ")
+dia = input("Ingrese el dia de de la semana: ").capitalize()
+if not (dia == "Sabado") and not(dia == "Domingo"):
+    vacaciones = input("¿Se encuentra de vacaciones? ").capitalize()
     if not (vacaciones == "Si"):
-        print("No puede ir")
+        print(f"No puede ir porque es {dia} y {vacaciones} se encuentra de vacaciones")
     else:
-        print("Puede ir")
-# revisar el ejercicio 5_9
+        print(f"Puede ir porque a pesar de que es {dia}, {vacaciones} se encuentra de vacaciones")
+else:
+    print(f"Puede ir porque es {dia}")
