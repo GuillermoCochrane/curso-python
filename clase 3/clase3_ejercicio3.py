@@ -5,4 +5,4 @@ nombreApellido = "Walter White"
 telefono = "+1 (505) 555-0199"
 mail = "walter.white@jpwynnehs.edu";
 
-print("Hola, mi nombre es", nombreApellido, "y te paso mi contacto telefonico", telefono, "y mi email", mail);
+print("Hola, mi nombre es", nombreApellido, "y te paso mi contacto telefonico", telefono, "y mi email", mail)

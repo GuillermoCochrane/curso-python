@@ -2,19 +2,20 @@
 
 **Contador:**
 
-- Se utiliza para **contar la cantidad de veces** que ocurre un evento específico.
+Se utiliza para **contar la cantidad de veces** que ocurre un evento específico.
 - Se inicializa a un valor inicial (comúnmente 0).
 - Se incrementa en 1 cada vez que ocurre el evento que se está contando.
 - Se utiliza principalmente dentro de bucles.
-  ejemplo :
 
-  ```python
-   contador += 1
-  #ó
-  contador = contador + 1
-  ```
+ejemplo :
 
-# Acumulador
+```python
+contador += 1
+#ó
+contador = contador + 1
+```
+
+**Acumulador:**
 
 Se utiliza para **acumular un valor** a lo largo de un proceso.
 
@@ -28,13 +29,13 @@ Se utiliza para **acumular un valor** a lo largo de un proceso.
 
   ```
 
-# COMO RESTRINGIR A SOLO NUMEROS??? 🧐🤯
+# Métodos y Validaciones de datos
 
-#### METODOS DE LA CLASE La clase str
+### Métodos de la clase STR
 
 Estos métodos te permiten manipular el texto de diferentes maneras, como verificar si contiene letras mayúsculas, minúsculas o números, buscar subcadenas, unir cadenas, convertir mayúsculas a minúsculas y viceversa, etc.
 
-#### La clase str en Python representa cadenas de caracteres. Es uno de los tipos de datos fundamentales del lenguaje y se utiliza para almacenar texto.
+### La clase str en Python representa cadenas de caracteres. Es uno de los tipos de datos fundamentales del lenguaje y se utiliza para almacenar texto.
 
 #### SOLO NUMEROS
 
@@ -48,17 +49,15 @@ else:
 	exit()
 ```
 
-## SOLO TEXTO 🗒️
+#### SOLO TEXTO 🗒️
 
 ```python
 entrada=input("Ingrese texto: ")
 
-if entrada.isalpha() orentrada.isspace():
-
+if entrada.isalpha() or entrada.isspace():
     print(f"el text ingresado es {entrada}.")
 
 else:
-
     print("Error: Debe ingresar solo texto (letras o espacios).")
 ```
 
@@ -85,7 +84,7 @@ Algunos ejemplos:
 | `lower()`      | Convierte todos los caracteres de la cadena a minúsculas.                            | `texto = "HOLA MUNDO"; texto_minusculas = texto.lower(); print(texto_minusculas)`(Salida: hola mundo)                                                    |
 | `capitalize()` | Convierte el primer caracter de la cadena a mayúscula y deja el resto en minúsculas. | `texto = "hola mundo"; texto_capitalizado = texto.capitalize(); print(texto_capitalizado)`(Salida:                                                       |
 
-# Para Numeros INT 🕘
+### Métodos de la clase INT 
 
 | Método                     | Descripción                                                                                  | Ejemplo                                                                                                                                                                                                  |
 | -------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -102,7 +101,7 @@ Algunos ejemplos:
 mas ejemplos:
 
 ```python
-##* SOLO NUMEROS
+# SOLO NUMEROS
 entrada = input("Ingrese un número: ")
 print (type(entrada))
 print (entrada.isdigit())
@@ -110,11 +109,10 @@ print (entrada.isdigit())
 if  entrada.isdigit()  :
     print(f"el numero ingresado es {entrada}.")
 else:
-    print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{
-        entrada}")
-    exit
+    print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{entrada}")
+    exit()
 
-
+#OTRA FORMA
 entrada = input("Ingrese un texto: ")
 print (type(entrada))
 print (entrada.isdigit())
@@ -122,23 +120,25 @@ print (entrada.isdigit())
 if not  entrada.isdigit()  :
     print(f"el text ingresado es {entrada}.")
 else:
-    print(f"Error: Debe ingresar un texto válido. fijate lo que pusiste!{
-        entrada}")
-    exit
+    print(f"Error: Debe ingresar un texto válido. fijate lo que pusiste!{entrada}")
+    exit()
+```
 
-  ## SOLO TEXTO
+```python
+# SOLO TEXTO
 entrada = input("Ingrese texto: ")
 if entrada.isalpha() or entrada.isspace():
     print(f"el text ingresado es {entrada}.")
 else:
     print("Error: Debe ingresar solo texto (letras o espacios).")
+```
 
+```python
 # METODOS DE LA CLASE La clase str
 #  Estos métodos te permiten manipular el texto de diferentes maneras, como verificar si contiene letras mayúsculas, minúsculas o números, buscar subcadenas, unir cadenas, convertir mayúsculas a minúsculas y viceversa, etc.
-
 # La clase str en Python representa cadenas de caracteres. Es uno de los tipos de datos fundamentales del lenguaje y se utiliza para almacenar texto.
-
 # algunos ejemplos de cómo se usan estos métodos:
+
 # capitalize(): Convierte el primer caracter de la cadena a mayúscula y deja el resto en minúsculas.
 texto = "hola mundo"
 texto_capitalizado = texto.capitalize()
@@ -180,8 +180,8 @@ texto = "texto con seis"
 es_digito = texto.isdigit()
 print(es_digito)  # Salida: False
 
-# mas data : https://docs.python.org/es/3/library/string.html
 
+#isinstance(valor, int): Verifica si el valor es un número entero (int).
 valor = 10
 
 if isinstance(valor, int):
@@ -189,10 +189,9 @@ if isinstance(valor, int):
 else:
     print(f"El valor {valor} no es un número entero.")
 
-
 ```
-
-# EJERCICIOS
+# mas data : https://docs.python.org/es/3/library/string.html
+# Actividades 💬
 
 - Realizar un programa que permita ingresar solo texto
 - Realizar un programa que permita ingresar solo texto y los muestre todo en mayuscula
