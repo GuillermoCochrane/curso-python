@@ -79,12 +79,12 @@ numero_seleccionado_x_usuario = input("Ingrese por segunda vez el numero a adivi
 if numero_seleccionado_x_usuario.isdigit():
     numero_seleccionado_x_usuario = int(numero_seleccionado_x_usuario )
 else:
-    print(f"{nombre_usuario} te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂   ️")
+    print(f"{nombre_usuario} te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂   ")
     exit()
 
 # validacion de que este entre el rango permitido
 if numero_seleccionado_x_usuario <1 or  numero_seleccionado_x_usuario >10:
-    print(f"{nombre_usuario} te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂   ️")
+    print(f"{nombre_usuario} te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂   ")
     exit()
 
 if numero_secreto == numero_seleccionado_x_usuario:
@@ -106,12 +106,12 @@ numero_seleccionado_x_usuario = input("Ingrese por tercera vez el numero a adivi
 if numero_seleccionado_x_usuario.isdigit():
     numero_seleccionado_x_usuario = int(numero_seleccionado_x_usuario )
 else:
-    print("Te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂  ️")
+    print("Te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂  ")
     exit()
 
 # validacion de que este entre el rango permitido
 if numero_seleccionado_x_usuario <1 or  numero_seleccionado_x_usuario >10:
-    print("Te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂   ️")
+    print("Te dije que ingreses un numero del 1 al 10, volvé a empezar 🤦‍♂   ")
     exit()
 
 if numero_secreto == numero_seleccionado_x_usuario:
