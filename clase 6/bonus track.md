@@ -1,6 +1,6 @@
 # Bonus track: 
 
-## Trivia: 
+## Trivia 1: 
 ### Dado el siguiente código:
 
 ```python
@@ -56,3 +56,46 @@ else:
 ```
 
 ---
+
+## Ejercicio 4
+
+> Realizar un juego donde la computadora seleccione un numero aleatorio del 1 al 10 y nosotros como jugadores tengamos hasta tres oportunidades de adivinar el numero, si ganamos que nos muestre un mensaje felicitándonos y mostrando el numero aleatorio seleccionado. Tener en cuenta que el numero seleccionado por la computadora al inicio es el mismo que deben evaluar en los tres intentos!. El programa deberá mostrar en que numero de intento lo acerte. Tambien deberá mostrar un mensaje como un "Frio" cuando estoy mas alla de 3 numeros o "Caliente" cuando estoy a menos de 3.
+
+
+```python
+#solucion clase 1
+```
+
+```python
+#solucion clase 2
+```
+---
+
+## Ejercicio 5
+> Realizar un juego de piedra, papel y tijera donde el usuario.
+
+```python
+#solucion
+```  
+---
+
+## Trivia 2: 
+### Dado el siguiente código, quiero saber si es Verdadero decir que el envío va a ser "gratis" si escribo algo distinto a SI o a NO
+
+```python
+libro = input('Ingrese el nombre del libro:')
+autor= input('Ingrese el nombre del autor:') precio = float(input('Ingrese el precio:'))
+envioGratis = input('¿El envio es gratis?/("SI") o ("NO")').upper()
+if envioGratis != "SI" and envioGratis != "NO":
+     envioGratis="SI"
+print (f'''Libro: {libro}
+Auto: {autor}
+Precio: {precio}
+¿Envio gratis?: {envioGratis}
+''')
+
+```
+- verdadero
+- falso
+---
+hasta 28s/5/2024
