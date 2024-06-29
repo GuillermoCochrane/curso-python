@@ -98,4 +98,4 @@ Precio: {precio}
 - verdadero
 - falso
 ---
-hasta 28s/5/2024
+hasta 31/5/2024
