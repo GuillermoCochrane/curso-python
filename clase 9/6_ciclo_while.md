@@ -42,7 +42,7 @@ En este ejemplo, el bloque de código dentro del while se ejecutará cinco veces
 
 ---
 
-# ⚠Es importante⚠
+# ¡¡¡Importante!!!
 
 ### Tener cuidado al usar ciclos while para evitar caer en bucles infinitos. Asegúrate de que la condición se modifique en algún punto dentro del bloque de código o de lo contrario, el bucle continuará ejecutándose indefinidamente.
 
