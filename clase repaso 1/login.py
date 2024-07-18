@@ -19,7 +19,7 @@ while True:
     print("\n¡Bienvenido!")
     nombre = input("Ingrese su nombre de usuario: ")
     usuario_encontrado = False
-    
+
     for usuario in lista_usuarios:        
         if usuario["nombre"] == nombre:
             password_guardado = usuario["password"]
