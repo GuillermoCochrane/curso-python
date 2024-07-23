@@ -1,6 +1,6 @@
 #RECORDA BORRAR LAS TRIPLES COMILLAS PARA QUE FUNCIONE(LINEA 3 Y 26)
 
-"""#Solucion de GUILLE:
+#Solucion de GUILLE:
 desplazamiento = 1
 
 decision_usuario = input("Que accion desea realizar? Desencriptar o Encriptar (D/E)").upper()
@@ -33,4 +33,3 @@ for numero in lista_indices:
     palabra_encriptada.append(lista_abecedario[numero]) #Agrega las letras modificadas a la lista de palabra_encriptada con el metodo append         
 salida_encriptada ="".join(palabra_encriptada) #Convierte la lista a una palabra
 print(salida_encriptada)
-"""
