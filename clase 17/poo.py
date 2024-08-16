@@ -1,6 +1,6 @@
 #definiendo objetos
 
-class vehiculos: 
+class Vehiculos: 
     def __init__(self, color, marca , modelo, puertas):
         self.color = color
         self.marca = marca
@@ -23,6 +23,6 @@ class autos:
     def mostrar_caracteristicas(self):
         print(f"El color de este {self.marca} {self.modelo} es {self.color} y tiene {self.puertas} puertas")
 
-auto_diego = vehiculos("rojo", "Ford", "Fiesta", 4)
+auto_diego = Vehiculos("rojo", "Ford", "Fiesta", 4)
 auto_diego.mostrar_caracteristicas()
 print(f"el color del auto es {auto_diego.color}")
