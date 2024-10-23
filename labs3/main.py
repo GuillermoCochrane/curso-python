@@ -2,7 +2,7 @@ import requests
 
 def obtener_clima():
     ciudad = "General Levalle" #entrada.get()
-    api_key = "bc899cb7e122434a93910705240210"
+    api_key = "bc899cb7e122434a9910705240210"
     try:
         url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={ciudad}&lang=es"
         respuesta = requests.get(url)
